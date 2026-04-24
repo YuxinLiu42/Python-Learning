@@ -1,0 +1,5 @@
+restart
+n
+b energy
+c
+print(density)
