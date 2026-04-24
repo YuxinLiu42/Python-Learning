@@ -1,0 +1,67 @@
+rooms:
+  - point: [1, 0]
+    links:
+      - [1, 1]
+  - point: [1, 1]
+    links:
+      - [1, 0]
+      - [1, 2]
+  - point: [0, 2]
+    links:
+      - [1, 2]
+      - [0, 3]
+  - point: [1, 2]
+    links:
+      - [1, 1]
+      - [0, 2]
+      - [2, 2]
+  - point: [2, 2]
+    links:
+      - [1, 2]
+      - [2, 3]
+  - point: [0, 3]
+    links:
+      - [0, 2]
+      - [0, 4]
+  - point: [2, 3]
+    links:
+      - [2, 2]
+      - [3, 3]
+      - [2, 4]
+  - point: [3, 3]
+    links:
+      - [2, 3]
+  - point: [0, 4]
+    links:
+      - [0, 3]
+      - [1, 4]
+  - point: [1, 4]
+    links:
+      - [0, 4]
+      - [2, 4]
+      - [1, 5]
+  - point: [2, 4]
+    links:
+      - [1, 4]
+      - [2, 3]
+  - point: [1, 5]
+    links:
+      - [1, 4]
+
+treasure:
+  point: [1, 0]
+  symbol: "*"
+
+adventurer:
+  point: [0, 3]
+  name: Adventurer
+  symbol: a
+  type: random
+  allow_wait: true
+
+troll:
+  point: [3, 3]
+  name: Troll
+  symbol: T
+  type: random
+  allow_wait: true
