@@ -1,0 +1,5 @@
+
+<http://dbpedia.org/ontology/water>
+    <http://purl.obolibrary.org/obo/PATO_0001681>
+        "18.01528"^^<http://purl.obolibrary.org/obo/UO_0000088>
+            .

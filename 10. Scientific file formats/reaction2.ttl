@@ -1,0 +1,7 @@
+
+@prefix disr: <http://www.turing.ac.uk/rsd-engineering/ontologies/reactions/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+dbo:water obo:PATO_0001681 "18.01528"^^obo:UO_0000088 ;
+          disr:containsElement obo:CHEBI_33260 .
